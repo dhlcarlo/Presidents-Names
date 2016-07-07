@@ -2,7 +2,7 @@
   "name": "presidents-names",
   "version": "0.0.0-semantically-released",
   "description": "Get random Presidents names",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
     "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dhlcarlo/presidents-names.git"
+    "url": "https://github.com/dhlcarlo/Presidents-Names.git"
   },
   "keywords": [
     "random",
@@ -31,12 +31,12 @@
     "dist",
     "README.md"
   ],
-  "author": "",
+  "author": "carlos",
   "license": "MIT",
   "bugs": {
     "url": ""
   },
-  "homepage": "",
+  "homepage": "https://github.com/dhlcarlo/presidents-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
