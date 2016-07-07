@@ -1,7 +1,7 @@
 {
-  "name": "starwars-names",
+  "name": "Presidents-names",
   "version": "0.0.0-semantically-released",
-  "description": "Get random Star Wars names",
+  "description": "Get random Presidents names",
   "main": "dist/index.js",
   "scripts": {
     "commit": "git-cz",
@@ -20,23 +20,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/starwars-names.git"
+    "url": "https://github.com/dhlcarlo/Presidents-Names.git"
   },
   "keywords": [
     "random",
-    "star",
-    "wars"
+    "Presidents",
+    "names"
   ],
   "files": [
     "dist",
     "README.md"
   ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kentcdodds/starwars-names/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/kentcdodds/starwars-names#readme",
+  "homepage": "",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
