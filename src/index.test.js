@@ -1,10 +1,10 @@
 import {expect} from 'chai';
-import starWars from './index';
+import presidents from './index';
 
-describe('starwars-names', function() {
+describe('presidents-names', function() {
   describe('all', function() {
     it('should be an array of strings', function() {
-      expect(starWars.all).to.satisfy(isArrayOfStrings);
+      expect(presidents.all).to.satisfy(isArrayOfStrings);
 
       function isArrayOfStrings(array) {
         return array.every(function(item) {
@@ -13,22 +13,22 @@ describe('starwars-names', function() {
       }
     });
 
-    it('should contain `Luke Skywalker`', function() {
-      expect(starWars.all).to.include('Luke Skywalker');
+    it('should contain `barack obama`', function() {
+      expect(presidents.all).to.include('Barack obama');
     });
   });
 
   describe('random', function() {
-    it('should return a random item from the starWars.all', function() {
-      var randomItem = starWars.random();
-      expect(starWars.all).to.include(randomItem);
+    it('should return a random item from the presidents.all', function() {
+      var randomItem = presidents.random();
+      expect(presidents.all).to.include(randomItem);
     });
 
     it('should return an array of random items if passed a number', function() {
-      var randomItems = starWars.random(3);
+      var randomItems = presidents.random(3);
       expect(randomItems).to.have.length(3);
       randomItems.forEach(function(item) {
-        expect(starWars.all).to.include(item);
+        expect(presidents.all).to.include(item);
       });
     });
   });
